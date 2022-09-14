@@ -1,0 +1,42 @@
+JWT tokenization - Timig for logout and password 
+All Rest api methods
+Login process 2 way authentIcation , single authentication - login from fingerprint/password and 2 way means send verification code in mail or text
+py encrypt
+caching system
+RabbitMQ - sequentially and queue 
+Payment gateway stripe
+multiple connection
+middleware
+
+Mysql
+Joins
+store procedure
+triggers
+views
+
+
+ports
+
+GET - read
+post - create
+put - update
+patch - partially update 
+delete -delete
+
+
+ls -list
+git init - if repo is empty then initialized git
+git add . - full adding files 
+git commit -m "" - this helps to commit code - in "" comments
+git push or git push origin main(branch) - this helps to push the code on current branch or 
+
+###Github Token###
+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
+
+##Add project in github by cmd
+-git clone (repo url)
+after copy files to clone folder
+-git commit -m "(comments)"
+aftersign in github
+-git push 
+
