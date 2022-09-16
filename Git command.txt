@@ -1,0 +1,23 @@
+**Add project in github by gitbash
+-git clone (repo url)
+after copy files to clone folder
+-git commit -m "(comments)"
+aftersign in github
+-git push
+
+
+**Gitbash
+first create blank folder and open gitbash same path
+-git clone (repo url)
+then open new folder and check .git file is created or not
+then copy and paste files in new folder
+and open gitbash new folder path
+-git add .
+-git commit -m "initial commit for code"   
+in double quotes only comments
+-git push
+
+if errro coming so follow thos steps
+
+-git config --global user.email "MY_NAME@example.com"
+-git push
