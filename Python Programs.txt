@@ -1,0 +1,17 @@
+1. pyencrypt - string to token
+Ans:
+
+from cryptography.fernet import Fernet
+message = "I am joined WSS company"
+key = Fernet.generate_key()
+fernet = Fernet(key)
+
+encmessage = fernet.encrypt(message.encode())
+
+print(message)
+print(encmessage)
+
+decMessage =fernet.decrypt(encmessage).decode()
+print(decMessage)
+
+2. 

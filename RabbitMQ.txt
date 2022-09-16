@@ -1,0 +1,23 @@
+**Rabbit MQ - is a Message Broker
+-it is a softwre that manages a queue and 
+this helps us to transfer messages from 1 application to another application  
+
+sequentially 
+AMQP - Advance Maxim Query protocol (0-9-1)
+Ackwoledgement
+
+#processs of RabbitMQ  -  Publisher not directly messages sends to Consumer so follow below process.
+
+-publisher send messages to exchange,
+-Exchange sends to Queue and then ,
+-Consumer will consume the messages from Queue,
+-and then consumer sends acknowledge.
+
+#How to install RabbiMQ in windows
+-first install Erlang for windows from this Link  https://www.erlang.org/downloads
+-Open the this Link  https://www.rabbitmq.com/install-windows.html
+-and install rabbitMQ server 
+-then open RabbitMQ command Prompt and type 
+Rabbitmq-plugins enable rabbitmq_management
+-then open Link  http://localhost:15672/
+port : 15672

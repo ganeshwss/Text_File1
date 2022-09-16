@@ -1,0 +1,5 @@
+Steps of Create rest Api
+
+1. pip install requests  - The requests module allows you to send HTTP requests using Python
+
+2. pip install jsonpath  - JSONPath is an expression language to parse JSON data
